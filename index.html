@@ -1,47 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <meta name="description" content="PWA TEST" />
-    <meta name="keywords" content="mths, ics2o" />
-    <meta name="author" content="Jakub Malhotra" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="My first PWA" />
+    <meta name="keywords" content="mths, ics2o" />
+    <meta name="author" content="Mr. Coxall" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <title>GitHub page as PWA template</title>
+    <link rel="canonical" href="https://https://jakub-malhotra.github.io/ICS2O-Unit-1-08-jakub-malhotra/" />
+    <link rel="manifest" href="/ICS2O-Unit-1-08-jakub-malhotra/manifest.webmanifest" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
-    <link
-      rel="stylesheet"
-      href="https://code.getmdl.io/1.3.0/material.blue_grey-orange.min.css"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./favicon-16x16.png"
-    />
-    <link rel="manifest" href="site.webmanifest" />
-    <link
-      rel="canonical"
-      href="https://github.com/jakub-malhotra/ICS2O-Unit-1-08-jakub-malhotra"
-    />
-    <link
-      rel="manifest"
-      href="/workspaces/ICS2O-Unit-1-08-jakub-malhotra/site.webmanifest"
-    />
-    <title>PWA Test</title>
+    <!--- None blocking for Lighthouse report --->
+    <!--- https://stackoverflow.com/questions/32759272/how-to-load-css-asynchronously --->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" media="none"
+      onload="if(media!='all')media='all'" />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    </noscript>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-purple.min.css" media="none"
+      onload="if(media!='all')media='all'" />
+    <noscript>
+      <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-purple.min.css" />
+    </noscript>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
   </head>
   <body>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
